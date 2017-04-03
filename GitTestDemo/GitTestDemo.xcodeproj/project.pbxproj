@@ -13,6 +13,7 @@
 		2AC8D6B61E913D3400F9EE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B41E913D3400F9EE7C /* Main.storyboard */; };
 		2AC8D6B81E913D3400F9EE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B71E913D3400F9EE7C /* Assets.xcassets */; };
 		2AC8D6BB1E913D3400F9EE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B91E913D3400F9EE7C /* LaunchScreen.storyboard */; };
+		2AC8D6CA1E9200F800F9EE7C /* masterBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8D6C91E9200F800F9EE7C /* masterBranch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2AC8D6B71E913D3400F9EE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC8D6BA1E913D3400F9EE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC8D6BC1E913D3400F9EE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC8D6C81E9200F800F9EE7C /* masterBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterBranch.h; sourceTree = "<group>"; };
+		2AC8D6C91E9200F800F9EE7C /* masterBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterBranch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2AC8D6B91E913D3400F9EE7C /* LaunchScreen.storyboard */,
 				2AC8D6BC1E913D3400F9EE7C /* Info.plist */,
 				2AC8D6AB1E913D3400F9EE7C /* Supporting Files */,
+				2AC8D6C81E9200F800F9EE7C /* masterBranch.h */,
+				2AC8D6C91E9200F800F9EE7C /* masterBranch.m */,
 			);
 			path = GitTestDemo;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				2AC8D6B31E913D3400F9EE7C /* ViewController.m in Sources */,
 				2AC8D6B01E913D3400F9EE7C /* AppDelegate.m in Sources */,
 				2AC8D6AD1E913D3400F9EE7C /* main.m in Sources */,
+				2AC8D6CA1E9200F800F9EE7C /* masterBranch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +317,7 @@
 				2AC8D6C11E913D3400F9EE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

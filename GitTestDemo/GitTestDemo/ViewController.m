@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "masterBranch.h"
 
 
 
@@ -35,6 +36,8 @@
 
 #pragma mark - 按键的处理
 - (IBAction)testClick:(UIButton *)sender {
-    
+    masterBranch* branch = [[masterBranch alloc] init];
+    branch.branchName = @"Master branch";
+    NSLog(@"当前的分支是:%@", branch.branchName);
 }
 @end
