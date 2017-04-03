@@ -8,8 +8,11 @@
 
 #import "ViewController.h"
 
+
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *versionLabel;
+- (IBAction)testClick:(UIButton *)sender;
 @end
 
 @implementation ViewController
@@ -30,9 +33,8 @@
     NSLog(@"#######################新建了  Dev的分支######################");
 }
 
-
-
-
-
-
+#pragma mark - 按键的处理
+- (IBAction)testClick:(UIButton *)sender {
+    
+}
 @end

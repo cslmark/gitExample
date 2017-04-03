@@ -36,13 +36,25 @@
                                 <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4K-zD-vhu">
+                                <rect key="frame" x="156" y="561" width="62" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="测试按钮">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="testClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="baz-js-p15"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="e4K-zD-vhu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4qA-4L-n4V"/>
                             <constraint firstItem="26h-tu-M0n" firstAttribute="leading" secondItem="ghl-Ot-0Bj" secondAttribute="trailing" constant="10" id="8ga-Qc-OZE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O3S-jH-N31" secondAttribute="bottom" id="JDw-RX-jeK"/>
                             <constraint firstItem="ghl-Ot-0Bj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Mfe-QW-gib"/>
                             <constraint firstItem="O3S-jH-N31" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="N82-Y5-gVa"/>
+                            <constraint firstItem="e4K-zD-vhu" firstAttribute="top" secondItem="26h-tu-M0n" secondAttribute="bottom" constant="217" id="T6Y-bI-Fuq"/>
                             <constraint firstItem="26h-tu-M0n" firstAttribute="centerY" secondItem="ghl-Ot-0Bj" secondAttribute="centerY" id="iab-L7-wDU"/>
                             <constraint firstItem="O3S-jH-N31" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="oI9-2y-Qcw"/>
                             <constraint firstItem="ghl-Ot-0Bj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tvV-KY-zo2"/>
