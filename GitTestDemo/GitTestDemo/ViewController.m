@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BranchDev.h"
 
 
 
@@ -35,6 +36,8 @@
 
 #pragma mark - 按键的处理
 - (IBAction)testClick:(UIButton *)sender {
-    
+    BranchDev* dev = [[BranchDev alloc] init];
+    dev.branchName = @"DevName";
+    NSLog(@"当前分支为: %@", dev.branchName);
 }
 @end
