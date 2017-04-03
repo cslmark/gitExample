@@ -27,6 +27,7 @@
     NSString *BundleVersionstr = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
     NSString *shortVersionStr = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *verstr = [NSString stringWithFormat:@"V%@(%@)",shortVersionStr,BundleVersionstr];
+    self.versionLabel.text = verstr;
     NSLog(@"当前的软件版本是:%@", verstr);
     
     //用于测试git Diff的命令
