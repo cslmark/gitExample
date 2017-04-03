@@ -13,8 +13,8 @@
 		2AC8D6B61E913D3400F9EE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B41E913D3400F9EE7C /* Main.storyboard */; };
 		2AC8D6B81E913D3400F9EE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B71E913D3400F9EE7C /* Assets.xcassets */; };
 		2AC8D6BB1E913D3400F9EE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC8D6B91E913D3400F9EE7C /* LaunchScreen.storyboard */; };
-		2AC8D6CA1E9200F800F9EE7C /* masterBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8D6C91E9200F800F9EE7C /* masterBranch.m */; };
 		2AC8D6C71E91FFBB00F9EE7C /* BranchDev.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8D6C61E91FFBB00F9EE7C /* BranchDev.m */; };
+		2AC8D6CA1E9200F800F9EE7C /* masterBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8D6C91E9200F800F9EE7C /* masterBranch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		2AC8D6B71E913D3400F9EE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC8D6BA1E913D3400F9EE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC8D6BC1E913D3400F9EE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AC8D6C81E9200F800F9EE7C /* masterBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterBranch.h; sourceTree = "<group>"; };
-		2AC8D6C91E9200F800F9EE7C /* masterBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterBranch.m; sourceTree = "<group>"; };
 		2AC8D6C51E91FFBB00F9EE7C /* BranchDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchDev.h; sourceTree = "<group>"; };
 		2AC8D6C61E91FFBB00F9EE7C /* BranchDev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchDev.m; sourceTree = "<group>"; };
+		2AC8D6C81E9200F800F9EE7C /* masterBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterBranch.h; sourceTree = "<group>"; };
+		2AC8D6C91E9200F800F9EE7C /* masterBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterBranch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
