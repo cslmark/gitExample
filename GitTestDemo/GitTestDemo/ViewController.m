@@ -52,5 +52,8 @@
     
     //此处有一个BUG  新建立  bugIssue01的分支来处理该问题
     NSLog(@"修改BUG    在 【%@】 分支上", @"bugIssue01");
+    
+    //V0.1.1版本之后添加的Dev分支
+    NSLog(@"V0.1.1版本之后添加的Dev分支");
 }
 @end
