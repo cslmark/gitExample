@@ -45,5 +45,8 @@
     dev.branchName = @"DevName";
     NSLog(@"当前分支为: %@", dev.branchName);
     NSLog(@"合并分支为[%@ %@]", dev.branchName, branch.branchName);
+    
+    //此处有一个BUG  新建立  bugIssue01的分支来处理该问题
+    NSLog(@"修改BUG    在 【%@】 分支上", @"bugIssue01");
 }
 @end
