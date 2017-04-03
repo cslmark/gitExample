@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "masterBranch.h"
+#import "BranchDev.h"
+
 
 
 
@@ -39,5 +41,9 @@
     masterBranch* branch = [[masterBranch alloc] init];
     branch.branchName = @"Master branch";
     NSLog(@"当前的分支是:%@", branch.branchName);
+    BranchDev* dev = [[BranchDev alloc] init];
+    dev.branchName = @"DevName";
+    NSLog(@"当前分支为: %@", dev.branchName);
+    NSLog(@"合并分支为[%@ %@]", dev.branchName, branch.branchName);
 }
 @end
